@@ -10,7 +10,10 @@
 </head>
 
 <body>
-    <div class="form">
+    <nav class="navbar">
+        <button id="change-btn">عضویت</button>
+    </nav>
+    <div id="login" class="form">
 
         <div class="head">
             <h2>ورود به حساب کاربری</h2>
@@ -43,7 +46,50 @@
                 <a href="#">فراموشی رمز عبور</a>
             </div>
         </form>
+        <small style="margin-bottom: 5px;color: blueviolet;"><span>&copy;</span>
+            تمامی حقوق محفوظ است </small>
     </div>
+
+
+    <div id="signup" class="form">
+        <div class="head">
+            <h2>ایجاد حساب کاربری</h2>
+        </div>
+        <form action="#">
+            <div class="top2">
+                <div><label for="Name">نام و نام خوانوادگی</label>
+                    <input type="text" name="name" id="Name">
+                </div>
+                <div>
+                    <label for="Password">پسورد </label>
+                    <input type="text" name="pasword" id="Password">
+                </div>
+
+
+            </div>
+
+
+            <div class="center">
+                <div>
+                    <label for="Phone"> تلفن</label>
+                <input type="text" name="phone" id="ph">
+                </div>
+                <div>
+                    <label for="ٍEmail"> ایمیل</label>
+                <input type="text" name="email" id="Email">
+                </div>
+            </div>
+            <div class="bottom">
+                <div><label for="checkbox"> قوانین را میپذیرم</label>
+                    <input type="checkbox" name="" id="">
+                </div>
+                <button class="btn2">ثبت مشخصات</button>
+            </div>
+        </form>
+        <small style="margin-bottom: 5px;color: blueviolet;"><span>&copy;</span>
+            تمامی حقوق محفوظ است </small>
+    </div>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
