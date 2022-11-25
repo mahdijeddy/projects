@@ -243,9 +243,12 @@ form {
 
 }
 .aaa{
-  color: rgb(226, 15, 156);
+  color: rgb(128, 69, 240);
   font-size: large;
   padding: 12px;
+  border-radius: 8px;
+  box-shadow: inset 0px 0px 15px 3px rgb(219, 176, 245);
+  animation: aaa 1s;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -270,6 +273,9 @@ input#password:focus {
 }
 @keyframes anm {
   0%{opacity: 0;transform: scale(.9)};100%{opacity: 1;transform: scale(1)}
+}
+@keyframes aaa {
+  0%{opacity: 0;transform: translateY(-20px)};100%{opacity: 1;transform: translateY(0px)}
 }
 
 

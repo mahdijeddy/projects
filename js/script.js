@@ -16,8 +16,10 @@ Name = document.querySelector("#Name");
 passwordSignup = document.querySelector("#Password");
 phone = document.querySelector("#ph");
 Email = document.querySelector("#Email");
-//search Error selction
-let Error=document.querySelectorAll(".error");
+btn2 = document.querySelector(".btn2");
+
+
+
 
 
 // ---------------------------events--------------------------------//
@@ -38,6 +40,7 @@ function events() {
   Email.addEventListener("blur", check6);
   //btns
   loginBtn.addEventListener("click", check7);
+  btn2.addEventListener("click", check7);
   
 }
 
@@ -129,6 +132,9 @@ function check6() {
   }
 }
 function check7() {
-  console.log(Error);
+  let Err=document.querySelectorAll('.error')
+  if (Err.length>=0) {
+    ui.Alert('فرم را تکمیل نکرده اید')
+  }
    
 }
