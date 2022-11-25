@@ -136,8 +136,7 @@ form {
   width: 100%;
   height: calc(100% / 3);
 }
-.p,
-.center input {
+.p,.center input {
   all: unset;
   padding: 20px;
   text-align: center;
@@ -237,10 +236,10 @@ form {
   border-bottom: 1px solid rgb(183, 0, 255);
 }
 .error{
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid red !important;
 }
 .agree{
-  border-bottom: 1px solid rgb(69, 233, 132)
+  border-bottom: 1px solid rgb(69, 233, 132) !important
 
 }
 .aaa{
